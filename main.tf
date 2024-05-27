@@ -16,13 +16,13 @@ provider "google" {
 }
 
 module "instances" {
-  source = "./instance"
+  source = "./instance.tf"
 }
 
 module "network" {
-  source = "./network"
+  source = "./network.tf"
 }
 
 module "firewall" {
-  source = "./firewall"
+  source = "./firewall.tf"
 }
