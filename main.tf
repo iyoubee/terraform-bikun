@@ -19,6 +19,10 @@ module "instances" {
   source = "./instance"
 }
 
+module "network" {
+  source = "./network"
+}
+
 module "firewall" {
   source = "./firewall"
 }
