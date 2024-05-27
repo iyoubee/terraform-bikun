@@ -1,5 +1,3 @@
-// main.tf
-
 terraform {
   required_providers {
     google = {
@@ -16,13 +14,13 @@ provider "google" {
 }
 
 module "instances" {
-  source = "./instance.tf"
+  source = "./"
 }
 
 module "network" {
-  source = "./network.tf"
+  source = "./"
 }
 
 module "firewall" {
-  source = "./firewall.tf"
+  source = "./"
 }
