@@ -42,7 +42,7 @@ resource "google_compute_instance" "bikun-main" {
 
   boot_disk {
     initialize_params {
-      size = var.disk_size_gb
+      size = var.main_disk_size_gb
       image = var.os
     }
   }
@@ -63,7 +63,7 @@ resource "google_compute_instance" "bikun-osrm" {
 
   boot_disk {
     initialize_params {
-      size = var.disk_size_gb
+      size = var.osrm_disk_size_gb
       image = var.os
     }
   }

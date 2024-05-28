@@ -20,9 +20,14 @@ variable "instance_type" {
   default     = "e2-medium"
 }
 
-variable "disk_size_gb" {
+variable "main_disk_size_gb" {
   description = "Size of the disk in GB"
   default     = 30
+}
+
+variable "osrm_disk_size_gb" {
+  description = "Size of the disk in GB"
+  default     = 40
 }
 
 variable "os" {
