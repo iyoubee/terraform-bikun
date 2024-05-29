@@ -2,7 +2,7 @@
 
 variable "project_id" {
   description = "Define Project ID"
-  default     = "<YOUR PROJECT ID>"
+  default     = "ristek-csui"
 }
 
 variable "region" {
@@ -32,5 +32,5 @@ variable "osrm_disk_size_gb" {
 
 variable "os" {
   description = "OS Type"
-  default     = "ubuntu-2204-jammy-v20230502"
+  default     = "ubuntu-os-cloud/ubuntu-2204-lts"
 }
