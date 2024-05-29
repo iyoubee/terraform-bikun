@@ -32,5 +32,5 @@ variable "osrm_disk_size_gb" {
 
 variable "os" {
   description = "OS Type"
-  default     = "debian-cloud/debian-12"
+  default     = "ubuntu-2204-jammy-v20230502"
 }
